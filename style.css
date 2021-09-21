@@ -1,0 +1,23 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+#container{
+width: 800px;
+height: 550px;
+background-image: url("pic.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+margin: 50px auto;
+}
+#box{
+ 
+    width: 300px;
+    height: 500px;
+    background-color: whitesmoke;
+    position: relative;
+    margin: 5px auto;
+    top: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 8px #888888;
+}
