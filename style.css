@@ -16,13 +16,13 @@ margin: 50px auto;
     height: 520px;
     background-color: whitesmoke;
     position: relative;
-    margin: 5px auto;
+    margin: 7px auto;
     top: 25px;
     border-radius: 15px;
-    box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 6px 8px #888888;
 }
 #result{
-    height: 120px;
+    height: 130px;
 }
 #keyboard{
     height: 400px;
@@ -48,5 +48,37 @@ margin: 50px auto;
     float: left;
     border-radius: 50px;
     border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
     background-color: rgb(221, 214, 214);
 }
+.operator,.number{
+    cursor: pointer;
+}
+.operator:active,.number:active{
+    font-size: medium;
+}
+.operator:focus,.number:focus,.empty:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: coral;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: cornflowerblue;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: palevioletred;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #ffa500;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: palegreen;
+}
+
